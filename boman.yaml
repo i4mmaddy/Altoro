@@ -1,11 +1,11 @@
 Auth:
   project_token: f0dd1da2-97e5-4e62-9f50-9c2e7a156a9e
   customer_token: a17845a1-056c-44c3-855f-9fd224de1d88
-SAST :
-  language: java-snyk-sast
-DAST:
-  type: "WEB"
-  URL: "https://demo.testfire.net/"
+#SAST :
+  #language: java-snyk-sast
+#DAST:
+ # type: "WEB"
+  #URL: "https://demo.testfire.net/"
 SCA:
-  language: java
-Secret_Scan: true
+  language: java-snyk-sca
+#Secret_Scan: true
